@@ -2,27 +2,29 @@ package loginpool
 
 import (
 	//"fmt"
-	"myfans"
+	// "myfans"
 	"uwants"
 )
 
 var Uwants map[string]*uwants.Uwants
-var Myfans map[string]*myfans.Myfans
 
 func init() {
 	Uwants = make(map[string]*uwants.Uwants)
-	Myfans = make(map[string]*myfans.Myfans)
+
 }
 
-func GetUwants(username, password string) *uwants.Uwants {
+func GetUwants(username, password string) (*uwants.Uwants, error) {
 	//fmt.Printf("|%v|%v|\n", username, password)
 	if cl, ok := Uwants[username]; ok {
-		return cl
+		return cl, nil
 	} else {
 		cl := uwants.New(username, password)
 		Uwants[username] = cl
-		cl.Login()
-		return cl
+		err := cl.Login()
+		if err != nil {
+			return nil, err
+		}
+		return cl, nil
 	}
 
 }

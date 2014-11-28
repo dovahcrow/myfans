@@ -4,14 +4,14 @@ function deletethreads(id) {
   $.ajax(
   {
     type:"get",
-    url: "/uwants/threads/delete/"+id,
+    url: "{{urlfor "ThreadController.DeleteThread" ":id" "0"}}"+id,
     success: function(data) {
       location.reload()
     }
   })
 }
 function updatethreads(id) {
-  var f = $("form[action='/uwants/threads/update/"+id+"']");
+  var f = $("form#form"+id);
   if (/^\s*$/.test(f.find('input[name="title"]').val())) {
     alert("标题不能为空");
     return false;
@@ -21,10 +21,10 @@ function updatethreads(id) {
     return false;
   }
   var d = f.serialize();
-  $.post("/uwants/threads/update/"+id, d, function (result) { location.reload()});
+  $.post("{{urlfor "ThreadController.UpdateThread" ":id" "0"}}"+id, d, function (result) { location.reload()});
 }
 function createthreads(){
-  var f = $("form[action='/uwants/threads/create']");
+  var f = $("form#new");
   
   if (/^\s*$/.test(f.find('input[name="title"]').val())) {
     alert("标题不能为空");
@@ -35,7 +35,7 @@ function createthreads(){
     return false;
   }
   var d = f.serialize();
-  $.post("/uwants/threads/create", d, function (result) { location.reload() });  
+  $.post("{{urlfor "ThreadController.CreateThread"}}", d, function (result) { location.reload() });  
 }
 </script>
 <div class="container">
@@ -43,7 +43,7 @@ function createthreads(){
     <div class="col-md-8 col-md-offset-2">
       <div class="alert alert-success">一行为一条帖子</div>
       {{range .threads}}
-      <form action="/uwants/threads/update/{{.Id}}" method="post" onsubmit="false">
+      <form action="{{urlfor "ThreadController.UpdateThread" ":id" (stringfy .Id)}}" method="post" onsubmit="false" id="form{{.Id}}">
         <div class="row" style="margin-top:5px;margin-bottom:5px;">
           <div class="col-md-11">
             <div class="panel-group" id="accordion">
@@ -74,7 +74,7 @@ function createthreads(){
         </div>
       </form>
       {{end}}
-      <form action="/uwants/threads/create" method="post">
+      <form action="{{urlfor "ThreadController.CreateThread"}}" method="post" id="new">
         <div class="row">
           <div class="col-md-11">
             <div class="panel-group" id="accordion">

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/config"
+	_ "github.com/astaxie/beego/session/redis"
 	_ "poke/controllers"
 	_ "poke/routers"
 
@@ -17,11 +18,8 @@ func main() {
 		return
 	}
 	proxy := cfg.String(`proxy`)
+	beego.Trace("set proxy as", proxy)
 	uwants.Proxy = proxy
-
-	beego.SessionOn = true
-	beego.SessionCookieLifeTime = 3600
-	beego.SessionName = `boss!`
-	beego.SessionProvider = `memory`
+	beego.AddFuncMap("stringfy", func(i interface{}) string { return fmt.Sprint(i) })
 	beego.Run()
 }

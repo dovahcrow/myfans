@@ -2,12 +2,20 @@
 
 <html>
 <head>
-  <title>uwants-repeater</title>
+  <title>discuss-repeater</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="/static/css/custom.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="/static/js/jquery.js"></script>
   <script type="text/javascript" src="/static/js/bootstrap.js"></script>
+  {{if eq .position "record"}}<link href="/static/css/datepicker.css" rel="stylesheet" type="text/css" />{{end}}
 </head>
 
 <body>
@@ -15,12 +23,12 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">uwants-repeater</span>
+        <span class="sr-only">discuss-repeater</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/uwants" class="navbar-brand">Uwants管理系统</a>
+      <a href="{{urlfor "BasicController.Index"}}" class="navbar-brand">discuss管理系统</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -28,53 +36,58 @@
       <ul class="nav navbar-nav">
         <li class="dropdown {{if eq .position "user"}}active{{end}} ">
           <a class="dropdown-toggle" data-toggle="dropdown">
-            {{if eq .subp "user-single"}}单条管理{{else if eq .subp "user-bunch"}}批量管理{{else}}用户管理{{end}} <b class="caret"></b>
+            {{if eq .subp "user-single"}}用户管理{{else if eq .subp "user-bunch"}}用户管理{{else}}用户管理{{end}} <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
             <li >
-              <a href="/uwants/users/single">单条管理</a>
+              <a href="{{urlfor "UserController.Single"}}">单条管理</a>
             </li>
             <li class="divider"></li>
             <li >
-              <a href="/uwants/users/bunch">批量管理</a>
+              <a href="{{urlfor "UserController.Bunch"}}">批量管理</a>
             </li>
           </ul>
         </li>
         <li class="dropdown {{if eq .position "thread"}}active{{end}} ">
           <a class="dropdown-toggle" data-toggle="dropdown">
-            {{if eq .subp "thread-single"}}单条管理{{else if eq .subp "thread-bunch"}}批量管理{{else}}帖子管理{{end}}<b class="caret"></b>
+            {{if eq .subp "thread-single"}}帖子管理{{else if eq .subp "thread-bunch"}}帖子管理{{else}}帖子管理{{end}} <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
             <li >
-              <a href="/uwants/threads/single">单条管理</a>
+              <a href="{{urlfor "ThreadController.Single"}}">单条管理</a>
             </li>
             <li class="divider"></li>
             <li >
-              <a href="/uwants/threads/bunch">批量管理</a>
+              <a href="{{urlfor "ThreadController.Bunch"}}">批量管理</a>
             </li>
           </ul>
         </li>
         <li class="dropdown {{if or (eq .position "reply") (eq .position "topic")}}active{{end}} ">
           <a class="dropdown-toggle" data-toggle="dropdown">
-            {{if eq .subp "topic"}}发帖{{else if eq .subp "reply"}}回帖{{else}}发帖管理{{end}}<b class="caret"></b>
+            {{if eq .subp "topic"}}发帖管理{{else if eq .subp "reply"}}发帖管理{{else}}发帖管理{{end}}
+            <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
             <li >
-              <a href="/uwants/topic">发帖</a>
+              <a href="{{urlfor "Uwants.GetTopic"}}">发帖</a>
             </li>
             <li class="divider"></li>
             <li >
-              <a href="/uwants/reply">回帖</a>
+              <a href="{{urlfor "Uwants.GetReply"}}">回帖</a>
             </li>
           </ul>
         </li>
         <li class="dropdown {{if eq .position "record"}}active{{end}} ">
           <a class="dropdown-toggle" data-toggle="dropdown">
-            发帖记录 <b class="caret"></b>
+            帖子记录
+            <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
             <li >
-              <a href="/uwants/records">帖子记录</a>
+              <a href="{{urlfor "TopicRecords.Records"}}">发帖记录</a>
+            </li>
+            <li >
+              <a href="{{urlfor "ThreadRecords.Records"}}">回帖记录</a>
             </li>
           </ul>
         </li>
@@ -82,5 +95,19 @@
     </div>
   </nav>
   {{.LayoutContent}}
+  {{if eq .position "record"}}<script type="text/javascript" src="/static/js/datepicker.js"></script>
+  <script type="text/javascript" src="/static/js/datepicker-zhcn.js"></script>
+  <script>
+  $('input#date').datepicker({
+    format: "yyyy-mm-dd",
+    startView: 1,
+    todayBtn: "linked",
+    language: "zh-CN",
+    orientation: "top auto",
+    multidate: 2,
+    multidateSeparator: "~",
+    todayHighlight: true
+});
+</script>{{end}}
 </body>
 </html>

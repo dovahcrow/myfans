@@ -20,7 +20,7 @@ var O orm.Ormer
 func init() {
 	fmt.Print(``)
 	orm.RegisterDataBase("default", "sqlite3", "database.db")
-	orm.RegisterModel(new(User), new(Threads), new(AvFids), new(AvTids), new(Record))
+	orm.RegisterModel(new(User), new(Threads), new(AvFids), new(AvTids), new(Record), new(ThreadRecord))
 	//orm.Debug = true
 	orm.RunCommand()
 	O = orm.NewOrm()
@@ -199,12 +199,11 @@ func DeleteAllFids() (err error) {
 			err = e.(error)
 		}
 	}()
-	_, err = O.QueryTable(new(AvFids)).Filter(`fids__contains`, `i`).Delete()
+	_, err = O.Raw("delete from av_fids").Exec()
 	return
 }
 
 func InsertFids(fids []string) (err error) {
-
 	insertion := []AvFids{}
 
 	for _, v := range fids {
@@ -238,7 +237,7 @@ func DeleteAllTids() (err error) {
 			err = e.(error)
 		}
 	}()
-	_, err = O.QueryTable(new(AvTids)).Filter(`tids__contains`, `i`).Delete()
+	_, err = O.Raw("delete from av_tids").Exec()
 	return
 }
 
@@ -319,15 +318,15 @@ func GetRecordsCountSuccOrNot(succ bool) (count int64, err error) {
 	count = i
 	return
 }
-func GetRecordsRange(i, j int) (r []*Record, err error) {
+func GetRecordsRange(offset, num int) (r []*Record, err error) {
 	defer func() {
 		if e := recover(); e != nil {
 			err = e.(error)
 		}
 	}()
 
-	_, err = O.QueryTable(new(Record)).OrderBy(`-id`).Limit(j - i + 1).Offset(i).All(&r)
-	beego.Info("get record range", i, j)
+	_, err = O.QueryTable(new(Record)).OrderBy(`-id`).Limit(num).Offset(offset).All(&r)
+	beego.Info("get record range", offset, num)
 	E("get record range fail", err)
 	return
 }
@@ -340,5 +339,107 @@ func GetRecordsCounts() (i int64, err error) {
 
 	i, err = O.QueryTable(new(Record)).Count()
 	E("get record count fail", err)
+	return
+}
+func SearchRecord(tp []string, val []interface{}) (r []*Record, err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+	qst := O.QueryTable(new(Record))
+
+	for i, _ := range tp {
+		qst = qst.Filter(tp[i], val[i])
+	}
+	_, err = qst.All(&r)
+	return
+}
+
+type ThreadRecord struct {
+	Id       int
+	Title    string
+	Username string
+	Ret      string `orm:"null"`
+	Succ     bool
+	Time     time.Time `orm:"auto_now"`
+}
+
+func AddThreadRecord(username string, ret string, Title string, succ bool) (err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+	r := &ThreadRecord{}
+	r.Username = username
+	r.Ret = ret
+	r.Title = Title
+	r.Succ = succ
+	_, err = O.Insert(r)
+	beego.Info("insert a record")
+	E("insert record fail", err)
+	return
+}
+
+func GetAllThreadRecords() (r []*ThreadRecord, err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+
+	_, err = O.QueryTable(new(ThreadRecord)).All(&r)
+	beego.Info("get all record")
+	E("get all record fail", err)
+	return
+}
+func GetThreadRecordsCountSuccOrNot(succ bool) (count int64, err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+
+	i, err := O.QueryTable(new(ThreadRecord)).Filter("Succ", succ).Count()
+	E("get record count succ fail", err)
+	count = i
+	return
+}
+func GetThreadRecordsRange(offset, num int) (r []*ThreadRecord, err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+
+	_, err = O.QueryTable(new(ThreadRecord)).OrderBy(`-id`).Limit(num).Offset(offset).All(&r)
+	beego.Info("get record range", offset, num)
+	E("get record range fail", err)
+	return
+}
+func GetThreadRecordsCounts() (i int64, err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+
+	i, err = O.QueryTable(new(ThreadRecord)).Count()
+	E("get record count fail", err)
+	return
+}
+func SearchThreadRecord(tp []string, val []interface{}) (r []*ThreadRecord, err error) {
+	defer func() {
+		if e := recover(); e != nil {
+			err = e.(error)
+		}
+	}()
+	qst := O.QueryTable(new(ThreadRecord))
+
+	for i, _ := range tp {
+		qst = qst.Filter(tp[i], val[i])
+	}
+	_, err = qst.All(&r)
 	return
 }

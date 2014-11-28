@@ -1,0 +1,2053 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Prn",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"Spi",
+				"Sprint	string ƒ"
+			],
+			[
+				"Add",
+				"AddFuncMap	error ƒ"
+			],
+			[
+				"p",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"q",
+				"query_val	[]interface{} ν"
+			],
+			[
+				"quer",
+				"query_typ	[]string ν"
+			],
+			[
+				"query_",
+				"query_val	[]interface{} ν"
+			],
+			[
+				"times",
+				"timestrings	[]string ν"
+			],
+			[
+				"time",
+				"timestrings	[]string ν"
+			],
+			[
+				"P",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"Que",
+				"QueryTable	orm.QuerySeter ƒ"
+			],
+			[
+				"Pr",
+				"Printf	 ƒ"
+			],
+			[
+				"PR",
+				"Printf	 ƒ"
+			],
+			[
+				"w",
+				"WriteHeader	 ƒ"
+			],
+			[
+				"Respon",
+				"ResponseWriter	interface ¡"
+			],
+			[
+				"trim",
+				"TrimSpace	string ƒ"
+			],
+			[
+				"Bee",
+				"BeeLogger	*logs.BeeLogger ν"
+			],
+			[
+				"I",
+				"PersonalIdentify	string ν"
+			],
+			[
+				"Pa",
+				"ParseForm	error ƒ"
+			],
+			[
+				"birth",
+				"birthdayS	string ν"
+			],
+			[
+				"New",
+				"NewFlash	*beego.FlashData ƒ"
+			],
+			[
+				"Remo",
+				"RemoveId	error ƒ"
+			],
+			[
+				"Con",
+				"controllName	string ν"
+			],
+			[
+				"contr",
+				"controllName	string ν"
+			],
+			[
+				"N",
+				"NewObjectId	bson.ObjectId ƒ"
+			],
+			[
+				"Fa",
+				"Fatalf	 ƒ"
+			],
+			[
+				"G",
+				"GetHackerNum	i int, err error ƒ"
+			],
+			[
+				"Fin",
+				"Find	*mgo.Query ƒ"
+			],
+			[
+				"Hack",
+				"HackerCollection	*mgo.Collection ν"
+			],
+			[
+				"U",
+				"UrlFor	string ƒ"
+			],
+			[
+				"Admin",
+				"AdminRDOnly	 Ɩ"
+			],
+			[
+				"C",
+				"Critical	 ƒ"
+			],
+			[
+				"Us",
+				"User	struct ʈ"
+			],
+			[
+				"Sp",
+				"Sprintf	string ƒ"
+			],
+			[
+				"lo",
+				"Logf	 ƒ"
+			],
+			[
+				"R",
+				"RemoteAddr	string ν"
+			],
+			[
+				"GetS",
+				"GetString	string ƒ"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"u",
+				"Usr	models.usr ν"
+			],
+			[
+				"Find",
+				"FindId	*mgo.Query ƒ"
+			],
+			[
+				"use",
+				"User	struct ʈ"
+			],
+			[
+				"Re",
+				"Request	*http.Request ν"
+			],
+			[
+				"Ind",
+				"DropIndex	error ƒ"
+			],
+			[
+				"D",
+				"DropIndex	error ƒ"
+			],
+			[
+				"In",
+				"Insert	error ƒ"
+			],
+			[
+				"Ge",
+				"GetSession	interface{} ƒ"
+			],
+			[
+				"Log",
+				"LogInfo	 Ɩ"
+			],
+			[
+				"H",
+				"Html	ret string, e error ƒ"
+			],
+			[
+				"Normalized",
+				"NormalizedSourceURL	*url.URL ƒ"
+			],
+			[
+				"Tp",
+				"TplNames	string ν"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bord",
+				"border-right"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Lo",
+				"Logf	 ƒ"
+			],
+			[
+				"Sk",
+				"SkipNow	 ƒ"
+			],
+			[
+				"IP",
+				"IPv4	net.IP ƒ"
+			],
+			[
+				"No",
+				"Now	time.Time ƒ"
+			],
+			[
+				"L",
+				"Logf	 ƒ"
+			],
+			[
+				"Obj",
+				"ObjectIdHex	bson.ObjectId ƒ"
+			],
+			[
+				"F",
+				"FindId	*mgo.Query ƒ"
+			],
+			[
+				"Atta",
+				"AttackCollection	*mgo.Collection ν"
+			],
+			[
+				"Att",
+				"AttackCollection	*mgo.Collection ν"
+			],
+			[
+				"O",
+				"ObjectId	string ʈ"
+			],
+			[
+				"Ob",
+				"ObjectIdHex	bson.ObjectId ƒ"
+			],
+			[
+				"O_Rd",
+				"O_RDWR	 Ɩ"
+			],
+			[
+				"T",
+				"ToLower	string ƒ"
+			],
+			[
+				"Sho",
+				"ShowWarn	bool ν"
+			],
+			[
+				"Show",
+				"ShowInfo	bool ν"
+			],
+			[
+				"O_",
+				"O_APPEND	 Ɩ"
+			],
+			[
+				"Op",
+				"OpenFile	file *os.File, err error ƒ"
+			],
+			[
+				"S",
+				"String	string ƒ"
+			],
+			[
+				"Ipv",
+				"IPv4"
+			],
+			[
+				"SubN",
+				"SubNet_compare"
+			],
+			[
+				"Ip",
+				"IPv4"
+			],
+			[
+				"subN",
+				"subNetAddr"
+			],
+			[
+				"SubNet",
+				"SubNet_hash"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"tr",
+				"transpose"
+			],
+			[
+				"from",
+				"from_fn"
+			],
+			[
+				"with",
+				"with_capacity"
+			],
+			[
+				"Tal",
+				"TotalOrd"
+			],
+			[
+				"struct",
+				"struct-tuple	struct …(…)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 61 files for \"urlfor\" (case sensitive)\n\n~/Documents/Program/Golang/myfans/bin/bee:\n    <binary>\n\n~/Documents/Program/Golang/myfans/bin/poke:\n    <binary>\n\n~/Documents/Program/Golang/myfans/bin/snatchmain:\n    <binary>\n\n~/Documents/Program/Golang/myfans/src/main:\n    <binary>\n\n~/Documents/Program/Golang/myfans/src/poke/poke:\n    <binary>\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/layout.html:\n   29          <span class=\"icon-bar\"></span>\n   30        </button>\n   31:       <a href=\"{{urlfor \"BasicController.Index\"}}\" class=\"navbar-brand\">discuss管理系统</a>\n   32      </div>\n   33  \n   ..\n   41            <ul class=\"dropdown-menu\">\n   42              <li >\n   43:               <a href=\"{{urlfor \"UserController.Single\"}}\">单条管理</a>\n   44              </li>\n   45              <li class=\"divider\"></li>\n   46              <li >\n   47:               <a href=\"{{urlfor \"UserController.Bunch\"}}\">批量管理</a>\n   48              </li>\n   49            </ul>\n   ..\n   55            <ul class=\"dropdown-menu\">\n   56              <li >\n   57:               <a href=\"{{urlfor \"ThreadController.Single\"}}\">单条管理</a>\n   58              </li>\n   59              <li class=\"divider\"></li>\n   60              <li >\n   61:               <a href=\"{{urlfor \"ThreadController.Bunch\"}}\">批量管理</a>\n   62              </li>\n   63            </ul>\n   ..\n   70            <ul class=\"dropdown-menu\">\n   71              <li >\n   72:               <a href=\"{{urlfor \"Uwants.GetTopic\"}}\">发帖</a>\n   73              </li>\n   74              <li class=\"divider\"></li>\n   75              <li >\n   76:               <a href=\"{{urlfor \"Uwants.GetReply\"}}\">回帖</a>\n   77              </li>\n   78            </ul>\n   ..\n   85            <ul class=\"dropdown-menu\">\n   86              <li >\n   87:               <a href=\"{{urlfor \"TopicRecords.Records\"}}\">发帖记录</a>\n   88              </li>\n   89              <li >\n   90:               <a href=\"{{urlfor \"ThreadRecords.Records\"}}\">回帖记录</a>\n   91              </li>\n   92            </ul>\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/records.html:\n    9  			<p>成功{{.succ}}个,失败{{.fail}}个</p>\n   10  			<div class=\"record-search\">\n   11: 				<form class=\"\" action=\"{{urlfor \"TopicRecords.Search\"}}\" method=\"get\" role=\"search\">\n   12  \n   13  					<div class=\"input-group\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threadrecords.html:\n   11  			<p>成功{{.succ}}个,失败{{.fail}}个</p>\n   12  			<div class=\"record-search\">\n   13: 				<form class=\"\" action=\"{{urlfor \"ThreadRecords.Search\"}}\" method=\"get\" role=\"search\">\n   14  \n   15  					<div class=\"input-group\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threads-single.html:\n    5    {\n    6      type:\"get\",\n    7:     url: \"{{urlfor \"ThreadController.DeleteThread\" \":id\" \"0\"}}\"+id,\n    8      success: function(data) {\n    9        location.reload()\n   ..\n   12  }\n   13  function updatethreads(id) {\n   14:   var f = $(\"form[action='{{urlfor \"ThreadController.UpdateThread\" \":id\" \"0\"}}\"+id+\"']\");\n   15    if (/^\\s*$/.test(f.find('input[name=\"title\"]').val())) {\n   16      alert(\"标题不能为空\");\n   ..\n   22    }\n   23    var d = f.serialize();\n   24:   $.post(\"{{urlfor \"ThreadController.UpdateThread\" \":id\" \"0\"}}\"+id, d, function (result) { location.reload()});\n   25  }\n   26  function createthreads(){\n   27:   var f = $(\"form[action='{{urlfor \"ThreadController.CreateThread\"}}']\");\n   28    \n   29    if (/^\\s*$/.test(f.find('input[name=\"title\"]').val())) {\n   ..\n   36    }\n   37    var d = f.serialize();\n   38:   $.post(\"{{urlfor \"ThreadController.CreateThread\"}}\", d, function (result) { location.reload() });  \n   39  }\n   40  </script>\n   ..\n   44        <div class=\"alert alert-success\">一行为一条帖子</div>\n   45        {{range .threads}}\n   46:       <form action=\"{{urlfor \"ThreadController.UpdateThread\" \":id\" (stringfy .Id)}}\" method=\"post\" onsubmit=\"false\">\n   47          <div class=\"row\" style=\"margin-top:5px;margin-bottom:5px;\">\n   48            <div class=\"col-md-11\">\n   ..\n   75        </form>\n   76        {{end}}\n   77:       <form action=\"{{urlfor \"ThreadController.CreateThread\"}}\" method=\"post\">\n   78          <div class=\"row\">\n   79            <div class=\"col-md-11\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/users-single.html:\n    5  	{\n    6  		type:\"get\",\n    7: 		url: \"{{urlfor \"UserController.DeleteUser\" \":id\" \"\"}}\"+id,\n    8  		success: function(data) {\n    9  			location.reload()\n   ..\n   13  function updateuser(id) {\n   14  		\n   15:         var f = $(\"form[action='{{urlfor \"UserController.UpdateUser\" \":id\" \"\"}}\"+id+\"']\");\n   16          if (/^\\s*$/.test(f.find('input[name=\"username\"]').val())) {\n   17          	alert(\"用户名不能为空\");\n   ..\n   23          }\n   24      	var d = f.serialize();\n   25:         $.post(\"{{urlfor \"UserController.UpdateUser\" \":id\" \"\"}}\"+id, d, function (result) { location.reload()});\n   26  }\n   27  function createuser(){\n   28: 	var f = $(\"form[action='{{urlfor \"UserController.CreateUser\"}}']\");\n   29  	if (/^\\s*$/.test(f.find('input[name=\"username\"]').val())) {\n   30          	alert(\"用户名不能为空\");\n   ..\n   36      }\n   37  	var d = f.serialize();\n   38: 	    $.post(\"{{urlfor \"UserController.CreateUser\"}}\", d, function (result) { location.reload()});	\n   39  }\n   40  </script>\n   ..\n   56  			</div>\n   57  			{{range .users}}\n   58: 			<form action=\"{{urlfor \"UserController.UpdateUser\" \":id\" (stringfy .Id)}}\" method=\"post\" onsubmit=\"false\">\n   59  				<div style=\"margin-top:5px;margin-bottom:5px;\" class=\"row\">\n   60  					<div class=\"col-md-9\">\n   ..\n   85  			</form>\n   86  			{{end}}\n   87: 			<form action=\"{{urlfor \"UserController.CreateUser\"}}\" method=\"post\">\n   88  				<div style=\"margin-top:5px;margin-bottom:5px;\" class=\"row\">\n   89  					<div class=\"col-md-9\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/uwants-reply.html:\n   16      type:'post',\n   17      data:$('#userselectav').val(),\n   18:     url:'{{urlfor \"Uwants.PostReply\"}}'\n   19    });\n   20  }\n   ..\n   30    }\n   31    var d = f.serialize();\n   32:   $.post(\"{{urlfor \"Uwants.PostReply\"}}\",d,function(result){\n   33      eval(\"var r =\"+result);\n   34  \n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/uwants-topic.html:\n   16      type:'post',\n   17      data:$('#userselectav').val(),\n   18:     url:'{{urlfor \"Uwants.PostTopic\"}}'\n   19    });\n   20  }\n   ..\n   30    }\n   31    var d = f.serialize();\n   32:   $.post(\"{{urlfor \"Uwants.PostTopic\"}}\",d,function(result){\n   33      eval(\"var r =\"+result);\n   34  \n\n~/Documents/Program/Golang/myfans/src/snatch/snatchmain/main:\n    <binary>\n\n47 matches across 13 files\n\n\nSearching 61 files for \"urlfor\" (case sensitive)\n\n~/Documents/Program/Golang/myfans/bin/bee:\n    <binary>\n\n~/Documents/Program/Golang/myfans/bin/poke:\n    <binary>\n\n~/Documents/Program/Golang/myfans/bin/snatchmain:\n    <binary>\n\n~/Documents/Program/Golang/myfans/src/main:\n    <binary>\n\n~/Documents/Program/Golang/myfans/src/poke/poke:\n    <binary>\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/layout.html:\n   29          <span class=\"icon-bar\"></span>\n   30        </button>\n   31:       <a href=\"{{urlfor \"BasicController.Index\"}}\" class=\"navbar-brand\">discuss管理系统</a>\n   32      </div>\n   33  \n   ..\n   41            <ul class=\"dropdown-menu\">\n   42              <li >\n   43:               <a href=\"{{urlfor \"UserController.Single\"}}\">单条管理</a>\n   44              </li>\n   45              <li class=\"divider\"></li>\n   46              <li >\n   47:               <a href=\"{{urlfor \"UserController.Bunch\"}}\">批量管理</a>\n   48              </li>\n   49            </ul>\n   ..\n   55            <ul class=\"dropdown-menu\">\n   56              <li >\n   57:               <a href=\"{{urlfor \"ThreadController.Single\"}}\">单条管理</a>\n   58              </li>\n   59              <li class=\"divider\"></li>\n   60              <li >\n   61:               <a href=\"{{urlfor \"ThreadController.Bunch\"}}\">批量管理</a>\n   62              </li>\n   63            </ul>\n   ..\n   70            <ul class=\"dropdown-menu\">\n   71              <li >\n   72:               <a href=\"{{urlfor \"Uwants.GetTopic\"}}\">发帖</a>\n   73              </li>\n   74              <li class=\"divider\"></li>\n   75              <li >\n   76:               <a href=\"{{urlfor \"Uwants.GetReply\"}}\">回帖</a>\n   77              </li>\n   78            </ul>\n   ..\n   85            <ul class=\"dropdown-menu\">\n   86              <li >\n   87:               <a href=\"{{urlfor \"TopicRecords.Records\"}}\">发帖记录</a>\n   88              </li>\n   89              <li >\n   90:               <a href=\"{{urlfor \"ThreadRecords.Records\"}}\">回帖记录</a>\n   91              </li>\n   92            </ul>\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/records.html:\n    9  			<p>成功{{.succ}}个,失败{{.fail}}个</p>\n   10  			<div class=\"record-search\">\n   11: 				<form class=\"\" action=\"{{urlfor \"TopicRecords.Search\"}}\" method=\"get\" role=\"search\">\n   12  \n   13  					<div class=\"input-group\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threadrecords.html:\n   11  			<p>成功{{.succ}}个,失败{{.fail}}个</p>\n   12  			<div class=\"record-search\">\n   13: 				<form class=\"\" action=\"{{urlfor \"ThreadRecords.Search\"}}\" method=\"get\" role=\"search\">\n   14  \n   15  					<div class=\"input-group\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threads-single.html:\n    5    {\n    6      type:\"get\",\n    7:     url: \"{{urlfor \"ThreadController.DeleteThread\" \":id\" \"0\"}}\"+id,\n    8      success: function(data) {\n    9        location.reload()\n   ..\n   12  }\n   13  function updatethreads(id) {\n   14:   var f = $(\"form[action='{{urlfor \"ThreadController.UpdateThread\" \":id\" \"0\"}}\"+id+\"']\");\n   15    if (/^\\s*$/.test(f.find('input[name=\"title\"]').val())) {\n   16      alert(\"标题不能为空\");\n   ..\n   22    }\n   23    var d = f.serialize();\n   24:   $.post(\"{{urlfor \"ThreadController.UpdateThread\" \":id\" \"0\"}}\"+id, d, function (result) { location.reload()});\n   25  }\n   26  function createthreads(){\n   27:   var f = $(\"form[action='{{urlfor \"ThreadController.CreateThread\"}}']\");\n   28    \n   29    if (/^\\s*$/.test(f.find('input[name=\"title\"]').val())) {\n   ..\n   36    }\n   37    var d = f.serialize();\n   38:   $.post(\"{{urlfor \"ThreadController.CreateThread\"}}\", d, function (result) { location.reload() });  \n   39  }\n   40  </script>\n   ..\n   44        <div class=\"alert alert-success\">一行为一条帖子</div>\n   45        {{range .threads}}\n   46:       <form action=\"{{urlfor \"ThreadController.UpdateThread\" \":id\" (stringfy .Id)}}\" method=\"post\" onsubmit=\"false\">\n   47          <div class=\"row\" style=\"margin-top:5px;margin-bottom:5px;\">\n   48            <div class=\"col-md-11\">\n   ..\n   75        </form>\n   76        {{end}}\n   77:       <form action=\"{{urlfor \"ThreadController.CreateThread\"}}\" method=\"post\">\n   78          <div class=\"row\">\n   79            <div class=\"col-md-11\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/users-single.html:\n    5  	{\n    6  		type:\"get\",\n    7: 		url: \"{{urlfor \"UserController.DeleteUser\" \":id\" \"\"}}\"+id,\n    8  		success: function(data) {\n    9  			location.reload()\n   ..\n   13  function updateuser(id) {\n   14  		\n   15:         var f = $(\"form[action='{{urlfor \"UserController.UpdateUser\" \":id\" \"0\"}}\"+id+\"']\");\n   16          if (/^\\s*$/.test(f.find('input[name=\"username\"]').val())) {\n   17          	alert(\"用户名不能为空\");\n   ..\n   23          }\n   24      	var d = f.serialize();\n   25:         $.post(\"{{urlfor \"UserController.UpdateUser\" \":id\" \"0\"}}\"+id, d, function (result) { location.reload()});\n   26  }\n   27  function createuser(){\n   28: 	var f = $(\"form[action='{{urlfor \"UserController.CreateUser\"}}']\");\n   29  	if (/^\\s*$/.test(f.find('input[name=\"username\"]').val())) {\n   30          	alert(\"用户名不能为空\");\n   ..\n   36      }\n   37  	var d = f.serialize();\n   38: 	    $.post(\"{{urlfor \"UserController.CreateUser\"}}\", d, function (result) { location.reload()});	\n   39  }\n   40  </script>\n   ..\n   56  			</div>\n   57  			{{range .users}}\n   58: 			<form action=\"{{urlfor \"UserController.UpdateUser\" \":id\" (stringfy .Id)}}\" method=\"post\" onsubmit=\"false\">\n   59  				<div style=\"margin-top:5px;margin-bottom:5px;\" class=\"row\">\n   60  					<div class=\"col-md-9\">\n   ..\n   85  			</form>\n   86  			{{end}}\n   87: 			<form action=\"{{urlfor \"UserController.CreateUser\"}}\" method=\"post\">\n   88  				<div style=\"margin-top:5px;margin-bottom:5px;\" class=\"row\">\n   89  					<div class=\"col-md-9\">\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/uwants-reply.html:\n   16      type:'post',\n   17      data:$('#userselectav').val(),\n   18:     url:'{{urlfor \"Uwants.PostReply\"}}'\n   19    });\n   20  }\n   ..\n   30    }\n   31    var d = f.serialize();\n   32:   $.post(\"{{urlfor \"Uwants.PostReply\"}}\",d,function(result){\n   33      eval(\"var r =\"+result);\n   34  \n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/uwants-topic.html:\n   16      type:'post',\n   17      data:$('#userselectav').val(),\n   18:     url:'{{urlfor \"Uwants.PostTopic\"}}'\n   19    });\n   20  }\n   ..\n   30    }\n   31    var d = f.serialize();\n   32:   $.post(\"{{urlfor \"Uwants.PostTopic\"}}\",d,function(result){\n   33      eval(\"var r =\"+result);\n   34  \n\n~/Documents/Program/Golang/myfans/src/snatch/snatchmain/main:\n    <binary>\n\n47 matches across 13 files\n\n\nSearching 61 files for \"form[action\" (case sensitive)\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threads-single.html:\n   12  }\n   13  function updatethreads(id) {\n   14:   var f = $(\"form[action='{{urlfor \"ThreadController.UpdateThread\" \":id\" \"0\"}}\"+id+\"']\");\n   15    if (/^\\s*$/.test(f.find('input[name=\"title\"]').val())) {\n   16      alert(\"标题不能为空\");\n   ..\n   25  }\n   26  function createthreads(){\n   27:   var f = $(\"form[action='{{urlfor \"ThreadController.CreateThread\"}}']\");\n   28    \n   29    if (/^\\s*$/.test(f.find('input[name=\"title\"]').val())) {\n\n/home/xarch/Documents/Program/Golang/myfans/src/poke/views/users-single.html:\n   13  function updateuser(id) {\n   14  		\n   15:         var f = $(\"form[action='{{urlfor \"UserController.UpdateUser\" \":id\" \"0\"}}\"+id+\"']\");\n   16          if (/^\\s*$/.test(f.find('input[name=\"username\"]').val())) {\n   17          	alert(\"用户名不能为空\");\n   ..\n   26  }\n   27  function createuser(){\n   28: 	var f = $(\"form[action='{{urlfor \"UserController.CreateUser\"}}']\");\n   29  	if (/^\\s*$/.test(f.find('input[name=\"username\"]').val())) {\n   30          	alert(\"用户名不能为空\");\n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 14457,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/poke/views/threads-single.html",
+			"settings":
+			{
+				"buffer_size": 3971,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/poke/config.conf",
+			"settings":
+			{
+				"buffer_size": 30,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/poke/views/users-single.html",
+			"settings":
+			{
+				"buffer_size": 3848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/poke/routers/router.go",
+			"settings":
+			{
+				"buffer_size": 2027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/poke/controllers/users.go",
+			"settings":
+			{
+				"buffer_size": 2506,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/GoSublime/GoSublime.sublime-build",
+	"command_palette":
+	{
+		"height": 292.0,
+		"selected_items":
+		[
+			[
+				"GoSublime: ",
+				"GoSublime: Goto Definition"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"GoSublime: test",
+				"GoSublime: Default Settings"
+			],
+			[
+				"pip",
+				"Package Control: Install Package"
+			],
+			[
+				"rust",
+				"Set Syntax: Rust"
+			],
+			[
+				"repl",
+				"Set Syntax: Io Repl"
+			],
+			[
+				"packinspa",
+				"Package Control: Install Package"
+			],
+			[
+				"packains",
+				"Package Control: Install Package"
+			],
+			[
+				"pinsak",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"oackage",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threads-single.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/users-single.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/controllers/users.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/conf/app.conf",
+		"/home/xarch/Documents/Program/Golang/myfans/src/snatch/snatch.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/index.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/main.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/template.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/loginpool/loginpool.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/snatch/snatchmain/main.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/layout.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/controllers/basic.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/base/base.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/uwants-topic.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/uwants-reply.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/routers/router.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/myfans/myfans.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/uwants/uwants.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/snatch/snatchmain/1.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/static/css/custom.css",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/static/css/datepicker.css",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/threadrecords.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/views/records.html",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/controllers/post.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/models/model.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/controllers/topic_records.go",
+		"/home/xarch/Documents/Program/Golang/myfans/src/poke/controllers/thread_records.go",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/static/fonts/glyphicons-halflings-regular.svg",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/views/threads-single.html",
+		"/home/xarch/Documents/Program/Golang/uwants/src/snatch/snatch_test.go",
+		"/home/xarch/Documents/Program/Golang/uwants/bin/snatchmain",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/views/layout.html",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/static/js/datepicker-zhcn.js",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/static/js/datepicker.js",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/static/js/datetime.js",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/tests/default.go",
+		"/home/xarch/Documents/Program/Golang/uwants/bin/poke",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/beego.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/controller.go",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/main.go",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/conf/app.conf",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/views/records.html",
+		"/home/xarch/Documents/Program/Golang/uwants/uwants.sublime-project",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/static/css/custom.css",
+		"/home/xarch/Documents/Program/Golang/uwants/src/github.com/beego/bee/README.md",
+		"/home/xarch/Documents/Program/Golang/uwants/src/poke/views/threads-bunch.html",
+		"/home/xarch/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/xarch/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/xarch/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/footer.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/attack_test.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/Highcharts/examples/line-time-series/index.htm",
+		"/usr/lib/go/src/pkg/time/format.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/attack.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/user/list.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/hacker/list.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/admin.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/userController.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/attackController.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/hackerController.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/tree.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/router.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/config.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/app.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/templatefunc.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/parser.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/namespace.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/router_test.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/header.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/main.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/session/sess_file.go",
+		"/home/xarch/.go_site/src/github.com/beego/redigo/redis/redis.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/conf/app.conf",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/hacker.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/adminController.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/user.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/db.go",
+		"/usr/lib/go/src/pkg/labix.org/v2/mgo/session.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/Highcharts/examples/area-negative/index.htm",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/attack/list.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/header.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/hacker_test.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/permission/permission.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/css/custom.css",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/helper/paginator.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/adminControllers.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/hacklist.sublime-project",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/tests/default_test.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/html5shiv.js",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/index.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/lib/lib.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/login.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/user_test.go",
+		"/home/xarch/.go_site/src/github.com/astaxie/beego/log.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/lib/base.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/footer.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/frame.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/admin/bare.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/routers/router.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/frame.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/Highcharts/js/modules/no-data-to-display.js",
+		"/home/xarch/.go_site/src/github.com/PuerkitoBio/gocrawl/ext.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/crawl/crawl.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/tskill",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/Highcharts/js/modules/canvas-tools.js",
+		"/home/xarch/golang/hasklist/src/hacklist/static/js/Highcharts/js/highcharts-3d.src.js",
+		"/home/xarch/golang/hasklist/src/hacklist/static/js/Highcharts/js/highcharts-more.src.js",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/index.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/warn.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/search.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/local-hacker.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/foreign-hacker.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/helper/submenu.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/attack.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/index.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/bare.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/d3.js",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/css/xChart.css",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/css/xchart.css",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/d3.v2.js",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/xChart.js",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/hacker.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/views/about.html",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/about.go",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/bee.json",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/js/jquery.min.js",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/static/css/bootstrap.css",
+		"/home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/default.go"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"cer.rs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"form",
+			"form[action",
+			"urlfor",
+			".Id",
+			" .Id",
+			".Id",
+			"uwants",
+			"\"}}\",",
+			"uwants",
+			"form",
+			"uwants",
+			"paginator",
+			"fmt",
+			"Print",
+			"print",
+			"bootstrap.min",
+			"insert a",
+			"insert",
+			"	\n",
+			"Recor",
+			"attackIds",
+			"hackerIds",
+			"urlfor",
+			"AHacker",
+			"AUser",
+			"Statistic",
+			"`))\n",
+			"></",
+			"Local",
+			"visible-",
+			"visible",
+			"@media",
+			"xs",
+			"@me",
+			"attack",
+			"Attack",
+			"atk",
+			"((hkr))",
+			"Attack",
+			"atk",
+			"(Atk)",
+			"(a)",
+			"(a",
+			"(a)",
+			"gs",
+			"acall",
+			"godoc",
+			"decl",
+			"gs_browse_declarations",
+			"decl",
+			"tip",
+			"ctrl+",
+			"ctrl+.",
+			"ctrl+do",
+			"doc",
+			"github.com/lisijie/go",
+			"github.com/lisijie/gobgithub.com/lisijie/go",
+			"default",
+			"Vector",
+			"from_elem",
+			"m3",
+			"m3u8",
+			"flv",
+			"Result",
+			"fmt",
+			"Show",
+			"format",
+			"rowap",
+			"zeros",
+			"rowap",
+			"to_f64",
+			"to_f54",
+			"into_own",
+			"macro",
+			"vec!",
+			"from_slice",
+			"as_s",
+			"as_",
+			"as_slice",
+			"get(",
+			"from_ele",
+			"clone",
+			"get(",
+			"get",
+			"zero",
+			"append(",
+			"push",
+			"Slice",
+			"slice",
+			"box",
+			"mat.n",
+			"n:n",
+			"n: n",
+			"n: ",
+			"m: ",
+			"m:",
+			"self.m",
+			"self.n",
+			" m)",
+			"[\\( ]n ",
+			"[\\( ]m ",
+			"m ",
+			"Order",
+			"Orderable",
+			"vec",
+			"folder",
+			"new_win"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"discuss",
+			"attackids",
+			"hackerids",
+			"AAttack",
+			"AHacker",
+			"Status",
+			"Foreign",
+			"hacker",
+			"Hacker",
+			"hkr",
+			"Hacker",
+			"(hkr)",
+			"(atk)",
+			"lis",
+			"map",
+			"col: col",
+			"col: ",
+			"row: ",
+			"self.row",
+			"self.col",
+			" col ",
+			"(row ",
+			"Vec"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14457,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										515,
+										521
+									],
+									[
+										719,
+										725
+									],
+									[
+										889,
+										895
+									],
+									[
+										1086,
+										1092
+									],
+									[
+										1258,
+										1264
+									],
+									[
+										1457,
+										1463
+									],
+									[
+										1619,
+										1625
+									],
+									[
+										1809,
+										1815
+									],
+									[
+										1933,
+										1939
+									],
+									[
+										2215,
+										2221
+									],
+									[
+										2518,
+										2524
+									],
+									[
+										2759,
+										2765
+									],
+									[
+										2969,
+										2975
+									],
+									[
+										3193,
+										3199
+									],
+									[
+										3370,
+										3376
+									],
+									[
+										3560,
+										3566
+									],
+									[
+										3803,
+										3809
+									],
+									[
+										4091,
+										4097
+									],
+									[
+										4349,
+										4355
+									],
+									[
+										4553,
+										4559
+									],
+									[
+										4802,
+										4808
+									],
+									[
+										4970,
+										4976
+									],
+									[
+										5186,
+										5192
+									],
+									[
+										5372,
+										5378
+									],
+									[
+										5637,
+										5643
+									],
+									[
+										5959,
+										5965
+									],
+									[
+										6078,
+										6084
+									],
+									[
+										6333,
+										6339
+									],
+									[
+										6452,
+										6458
+									],
+									[
+										7165,
+										7171
+									],
+									[
+										7369,
+										7375
+									],
+									[
+										7539,
+										7545
+									],
+									[
+										7736,
+										7742
+									],
+									[
+										7908,
+										7914
+									],
+									[
+										8107,
+										8113
+									],
+									[
+										8269,
+										8275
+									],
+									[
+										8459,
+										8465
+									],
+									[
+										8583,
+										8589
+									],
+									[
+										8865,
+										8871
+									],
+									[
+										9168,
+										9174
+									],
+									[
+										9409,
+										9415
+									],
+									[
+										9619,
+										9625
+									],
+									[
+										9843,
+										9849
+									],
+									[
+										10020,
+										10026
+									],
+									[
+										10210,
+										10216
+									],
+									[
+										10453,
+										10459
+									],
+									[
+										10741,
+										10747
+									],
+									[
+										10999,
+										11005
+									],
+									[
+										11203,
+										11209
+									],
+									[
+										11453,
+										11459
+									],
+									[
+										11622,
+										11628
+									],
+									[
+										11838,
+										11844
+									],
+									[
+										12024,
+										12030
+									],
+									[
+										12289,
+										12295
+									],
+									[
+										12611,
+										12617
+									],
+									[
+										12730,
+										12736
+									],
+									[
+										12985,
+										12991
+									],
+									[
+										13104,
+										13110
+									],
+									[
+										13502,
+										13513
+									],
+									[
+										13741,
+										13752
+									],
+									[
+										14026,
+										14037
+									],
+									[
+										14272,
+										14283
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								13388,
+								13388
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7940.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/poke/views/threads-single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"is_xml": false,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/poke/config.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/poke/views/users-single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"is_xml": false,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/poke/routers/router.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1331,
+								1331
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 40.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/poke/controllers/users.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1474,
+								1474
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/xarch/.go_site/src/github.com/PuerkitoBio/gocrawl":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/.go_site/src/github.com/astaxie/beego":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/crawl":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/admin/controllers/lib":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/helper":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/controllers/lib":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models":
+	{
+		"height": 74.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/models/permission":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/hacklist/routers":
+	{
+		"height": 100.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/logs":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/hasklist/src/t":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/uwants/src/loginpool":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/uwants/src/myfans":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/uwants/src/poke/controllers":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/uwants/src/poke/models":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/uwants/src/poke/tests":
+	{
+		"height": 124.0
+	},
+	"output.9o:///home/xarch/Documents/Program/Golang/uwants/src/uwants":
+	{
+		"height": 124.0
+	},
+	"output.GsComplete.completion-hint-output":
+	{
+		"height": 124.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 124.0
+	},
+	"output.exec":
+	{
+		"height": 129.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"project": "myfans.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"strings",
+				"src/poke/static/fonts/glyphicons-halflings-regular.svg"
+			],
+			[
+				"os",
+				"src/poke/controllers/post.go"
+			],
+			[
+				"fmt",
+				"src/hacklist/views/footer.html"
+			],
+			[
+				"http",
+				"hacklist.sublime-project"
+			],
+			[
+				"mgo",
+				"src/hacklist/main.go"
+			],
+			[
+				"net",
+				"src/hacklist/static/js/Highcharts/examples/area-negative/index.htm"
+			],
+			[
+				"",
+				"~/Documents/Program/python/ML/decisionTree/c4.5/c45.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"tea",
+				"~/Documents/Program/Golang/teach/teach.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Program/Golang/teach/teach.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

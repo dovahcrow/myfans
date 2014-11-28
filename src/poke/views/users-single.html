@@ -4,7 +4,7 @@ function deleteuser(id) {
 	$.ajax(
 	{
 		type:"get",
-		url: "/uwants/users/delete/"+id,
+		url: "{{urlfor "UserController.DeleteUser" ":id" "0"}}"+id,
 		success: function(data) {
 			location.reload()
 		}
@@ -12,7 +12,7 @@ function deleteuser(id) {
 }
 function updateuser(id) {
 		
-        var f = $("form[action='/uwants/users/update/"+id+"']");
+        var f = $("form#form"+id);
         if (/^\s*$/.test(f.find('input[name="username"]').val())) {
         	alert("用户名不能为空");
         	return false;
@@ -22,10 +22,10 @@ function updateuser(id) {
         	return false;
         }
     	var d = f.serialize();
-        $.post("/uwants/users/update/"+id, d, function (result) { location.reload()});
+        $.post("{{urlfor "UserController.UpdateUser" ":id" "0"}}"+id, d, function (result) { location.reload()});
 }
 function createuser(){
-	var f = $("form[action='/uwants/users/create']");
+	var f = $("form#new");
 	if (/^\s*$/.test(f.find('input[name="username"]').val())) {
         	alert("用户名不能为空");
         	return false;
@@ -35,7 +35,7 @@ function createuser(){
     	return false;
     }
 	var d = f.serialize();
-	    $.post("/uwants/users/create", d, function (result) { location.reload()});	
+	    $.post("{{urlfor "UserController.CreateUser"}}", d, function (result) { location.reload()});	
 }
 </script>
 <div class="container">
@@ -55,7 +55,7 @@ function createuser(){
 				</div>
 			</div>
 			{{range .users}}
-			<form action="/uwants/users/update/{{.Id}}" method="post" onsubmit="false">
+			<form action="{{urlfor "UserController.UpdateUser" ":id" (stringfy .Id)}}" method="post" onsubmit="false" id="form{{.Id}}">
 				<div style="margin-top:5px;margin-bottom:5px;" class="row">
 					<div class="col-md-9">
 
@@ -84,7 +84,7 @@ function createuser(){
 				</div>
 			</form>
 			{{end}}
-			<form action="/uwants/users/create" method="post">
+			<form action="{{urlfor "UserController.CreateUser"}}" method="post" id="new">
 				<div style="margin-top:5px;margin-bottom:5px;" class="row">
 					<div class="col-md-9">
 						<div class="row">

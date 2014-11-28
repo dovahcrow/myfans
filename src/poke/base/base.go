@@ -13,7 +13,7 @@ func (this *BaseController) Prepare() {
 	this.Data[`position`] = ""
 	this.Data[`subp`] = ""
 	if user := this.GetSession(`login`); user == nil {
-		this.Redirect(`/uwants/login`, 302)
+		this.Redirect(this.UrlFor(`LoginController.Login`), 302)
 		return
 	}
 }

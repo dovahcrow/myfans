@@ -15,13 +15,21 @@ function spawn() {
   $.ajax({
     type:'post',
     data:$('#userselectav').val(),
-    url:'/uwants/topic'
+    url:'{{urlfor "Uwants.PostTopic"}}'
   });
 }
 function doit() {
   var f = $("form#send-btn");
+  if (f.find('#userselectav')[0].length == 0) {
+  	alert("可用用户数为0");
+	return
+  }
+  if (f.find('#threadselectav')[0].length == 0) {
+  	alert("可用帖子数为0");
+	return
+  }
   var d = f.serialize();
-  $.post("/uwants/topic",d,function(result){
+  $.post("{{urlfor "Uwants.PostTopic"}}",d,function(result){
     eval("var r ="+result);
 
     if (r["ok"] != undefined) {
@@ -41,6 +49,7 @@ function doit() {
   <div style="height:50px"></div>
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
+    <h1>发帖</h1>
       <div class="alert" id="statusbar" style="display:none"></div>
       <form method="post" action="" id="send-btn">
         <div class="row">
@@ -95,6 +104,12 @@ function doit() {
             <select multiple="multiple" class="form-control" style="width:100%" name="threads" id="threadselectav"></select>
           </div>
         </div>
+		<div>
+		  <span> 发帖速度：</span>
+		  <input type="radio" name="waittime" value="60"/><span>60秒一帖</span>
+		  <input type="radio" name="waittime" value="40"/><span>40秒一帖</span>
+		  <input type="radio" name="waittime" value="20"/><span>20秒一帖</span>
+		</div>
         <div style="margin-top:20px;"></div>
         <button type="button" class="btn btn-warning" data-loading-text="正在发帖" onclick="doit();false">发帖!</button>
       </form>

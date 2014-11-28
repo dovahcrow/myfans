@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	//"github.com/astaxie/beego"
+	"github.com/astaxie/beego"
 	"poke/base"
 )
 
@@ -10,7 +10,7 @@ type BasicController struct {
 }
 
 func (this *BasicController) Index() {
-	this.Data[`version`] = `版本 v1.1.2`
+	this.Data[`version`] = `版本 v1.2.0`
 	this.TplNames = "index.html"
 }
 
@@ -25,16 +25,16 @@ func (this *LoginController) Prepare() {
 }
 func (this *LoginController) Exit() {
 	this.DelSession(`login`)
-	this.Redirect(`/uwants`, 302)
+	this.Redirect(beego.UrlFor("BasicController.Index"), 302)
 }
 func (this *LoginController) Login() {
 	switch this.Ctx.Input.Method() {
 	case "POST":
 		{
-			if this.GetString(`password`) == `uwants` {
+			if this.GetString(`password`) == `discuss` {
 				this.SetSession(`login`, true)
 			}
-			this.Redirect(`/uwants`, 302)
+			this.Redirect(beego.UrlFor("BasicController.Index"), 302)
 		}
 	case "GET":
 		{

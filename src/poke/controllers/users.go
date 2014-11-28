@@ -20,6 +20,7 @@ func (this *UserController) Single() {
 		this.TplNames = `error.html`
 		return
 	}
+
 	this.Data[`users`] = us
 	this.Data[`position`] = "user"
 	this.Data[`subp`] = "user-single"
@@ -59,11 +60,12 @@ func (this *UserController) BunchAdd() {
 }
 
 func (this *UserController) UpdateUser() {
+	defer this.ServeJson()
 	ids := this.Ctx.Input.Param(`:id`)
 	id, _ := strconv.ParseInt(ids, 10, 0)
 	usnm := this.GetString(`username`)
 	pswd := this.GetString(`password`)
-
+	fmt.Println(pswd, usnm)
 	if strings.TrimSpace(usnm) == `` || strings.TrimSpace(pswd) == `` {
 		this.Data[`ret`] = `输入数据不能为空`
 		return
@@ -76,7 +78,7 @@ func (this *UserController) UpdateUser() {
 		return
 	}
 	this.Data[`json`] = map[string]interface{}{`succ`: `ok`}
-	this.ServeJson()
+
 	return
 
 }
